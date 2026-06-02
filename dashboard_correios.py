@@ -32,7 +32,7 @@ st.markdown("""
         margin-bottom: 2rem;
     }
     .status-card {
-        padding: 1.5rem;
+        padding: 1.1rem;
         border-radius: 15px;
         text-align: center;
         color: white;
