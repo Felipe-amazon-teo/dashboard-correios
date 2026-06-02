@@ -10,7 +10,7 @@ import io
 # CONFIGURAÇÃO DA PÁGINA
 # ============================================================
 st.set_page_config(
-    page_title="📦 Dashboard Correios - Pacotes Não Integrados",
+    page_title="📦 Correios - Integração de pacotes",
     page_icon="📦",
     layout="wide",
     initial_sidebar_state="expanded"
