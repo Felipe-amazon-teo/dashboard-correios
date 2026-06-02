@@ -165,7 +165,7 @@ if qtd_nao_integrados >= 50:
         <strong> ALERTA DE RUPTURA! </strong>
         <span class="sirene">🚨</span>
         <br><br>
-        <span style="font-size: 2.5rem;">{qtd_nao_integrados}</span> pacotes não integrados!
+        <span style="font-size: 1.5rem;">{qtd_nao_integrados}</span> pacotes não integrados!
         <br>
         <small>⏰ Delay de integração acima de 2 horas detectado - Ação imediata necessária!</small>
     </div>
