@@ -215,10 +215,10 @@ st.markdown("---")
 # DELAY DE 2 HORAS (para status RUPTURA)
 # ============================================================
 if qtd_nao_integrados >= 50:
-    st.markdown("### ⏰ Monitoramento de Delay - 2 Horas")
+    st.markdown("### ⏰ Monitoramento de Delay - integração acima de 2 Horas")
     col_delay1, col_delay2 = st.columns(2)
     with col_delay1:
-        st.error("🚨 **DELAY DETECTADO:** Mais de 50 pacotes sem integração há mais de 2 horas!")
+        st.error("🚨 **DELAY DETECTADO:** Mais de 50 pacotes com integração acima de 2 horas!")
         st.warning("⚠️ **Ação necessária:** Verificar sistema de integração dos Correios imediatamente.")
     with col_delay2:
         st.info("🕐 **Tempo desde último alerta:** 2h 00min")
