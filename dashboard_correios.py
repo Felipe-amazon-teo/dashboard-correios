@@ -84,7 +84,7 @@ st.markdown("""
 # ============================================================
 @st.cache_data
 def load_data():
-    df = pd.read_excel("base_correios.xlsx.xlsx")
+    df = pd.read_excel("Base_Correios.xlsx")
     df['data'] = pd.to_datetime(df['data'])
     df['mes'] = df['data'].dt.to_period('M').astype(str)
     df['dia'] = df['data'].dt.strftime('%Y-%m-%d')
