@@ -162,7 +162,7 @@ if qtd_nao_integrados >= 50:
     st.markdown(f"""
     <div class="alert-ruptura">
         <span class="sirene">🚨</span>
-        <strong> ALERTA DE RUPTURA! </strong>
+        <strong style="font-size: 0.9rem;"> ALERTA DE RUPTURA! </strong>
         <span class="sirene">🚨</span>
         <br><br>
         <span style="font-size: 1.4rem;">{qtd_nao_integrados}</span> pacotes não integrados!
