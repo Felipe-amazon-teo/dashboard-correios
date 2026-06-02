@@ -698,7 +698,7 @@ st.markdown("---")
 # ============================================================
 st.markdown(f"""
 <div style="text-align: center; padding: 2rem; color: #666;">
-    <p>📦 Dashboard Correios - Pacotes Não Integrados | Atualizado em tempo real</p>
+    <p>📦 Correios - integração de pacotes | Atualizado em tempo real</p>
     <p>🔄 Última atualização: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}</p>
 </div>
 """, unsafe_allow_html=True)
