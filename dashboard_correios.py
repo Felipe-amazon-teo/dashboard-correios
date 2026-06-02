@@ -149,7 +149,7 @@ st.markdown('<div class="main-header">📦 Correios - integração de pacotes</d
 # ============================================================
 # STATUS GERAL - SEMÁFORO
 # ============================================================
-st.markdown("## 🚦 Status Geral")
+st.markdown("#### 🚦 Status Geral")
  
 qtd_nao_integrados = len(df_nao_integrados)
 qtd_integrados = len(df_integrados)
