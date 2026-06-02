@@ -144,7 +144,7 @@ df_nao_integrados = df_filtered[df_filtered['Status'] != 'integrado']
 # ============================================================
 # HEADER PRINCIPAL
 # ============================================================
-st.markdown('<div class="main-header">📦 Dashboard Correios - Pacotes Não Integrados</div>', unsafe_allow_html=True)
+st.markdown('<div class="main-header">📦 Correios - integração de pacotes</div>', unsafe_allow_html=True)
  
 # ============================================================
 # STATUS GERAL - SEMÁFORO
