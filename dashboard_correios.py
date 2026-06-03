@@ -53,7 +53,7 @@ st.markdown("""
     .alert-ruptura {
         background-color: #6f42c1;
         color: white;
-        padding: 0.1rem;
+        padding: 0.0rem;
         border-radius: 8px;
         text-align: center;
         font-size: 1.1rem;
