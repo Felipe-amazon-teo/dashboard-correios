@@ -167,7 +167,7 @@ if qtd_nao_integrados >= 50:
         <br><br>
         <span style="font-size: 1.2rem;">{qtd_nao_integrados}</span> pacotes não integrados!
         <br>
-        <small>⏰ Delay de integração acima de 2 horas detectado - Ação imediata necessária!</small>
+        <small>⏰ Delay na integração! Pacote integra acima de 2 horas - Ação imediata necessária!</small>
     </div>
     """, unsafe_allow_html=True)
     st.snow()
