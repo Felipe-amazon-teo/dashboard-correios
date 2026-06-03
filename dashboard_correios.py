@@ -66,7 +66,7 @@ st.markdown("""
         100% { opacity: 1; transform: scale(1); }
     }
     .sirene {
-        font-size: 2.2rem;
+        font-size: 2.0rem;
         animation: rotate 0.5s infinite;
     }
     @keyframes rotate {
