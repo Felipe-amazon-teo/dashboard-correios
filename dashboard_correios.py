@@ -149,7 +149,7 @@ st.markdown('<div class="main-header">📦 Correios - integração de pacotes</d
 # ============================================================
 # STATUS GERAL - SEMÁFORO
 # ============================================================
-st.markdown("##### 🚦 Status Geral")
+st.markdown("###### 🚦 Status Geral")
  
 qtd_nao_integrados = len(df_nao_integrados)
 qtd_integrados = len(df_integrados)
@@ -162,16 +162,16 @@ if qtd_nao_integrados >= 50:
     st.markdown(f"""
     <div class="alert-ruptura">
         <span class="sirene">🚨</span>
-        <strong style="font-size: 1.2rem;"> *ALERTA DE RUPTURA!* </strong>
+        <strong style="font-size: 1.2rem;"> ALERTA DE RUPTURA! </strong>
         <span class="sirene">🚨</span>
         <br><br>
-        <span style="font-size: 1.3rem;">{qtd_nao_integrados}</span> pacotes não integrados!
+        <span style="font-size: 1.2rem;">{qtd_nao_integrados}</span> pacotes não integrados!
         <br>
         <small>⏰ Delay na integração! Pacote integra após 2 horas ou mais - Ação imediata necessária!</small>
     </div>
     """, unsafe_allow_html=True)
     st.snow()
-    time.sleep(0.5)
+    time.sleep(0.4)
  
 # Cards de métricas
 col1, col2, col3, col4 = st.columns(4)
