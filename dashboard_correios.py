@@ -54,7 +54,7 @@ st.markdown("""
         background-color: #6f42c1;
         color: white;
         padding: 1rem;
-        border-radius: 10px;
+        border-radius: 8px;
         text-align: center;
         font-size: 1.3rem;
         animation: pulse 1s infinite;
